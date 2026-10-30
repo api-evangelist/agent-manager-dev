@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agent-manager-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agent-manager.dev/
+agent-manager-dev appears to be an open-source Go terminal UI project for managing AI coding agents within tmux, rather than a traditional company. The project provides a TUI that integrates multiple AI agents, offering features like side‑by‑side sessions, quick prompts, and diff reviewing. It is hosted at agent-manager.dev and its source code is available on GitHub. No verified corporate website or official company information could be confirmed, and the listed website points to the project’s documentation site rather than a business entity.
+
+**Areas:** AI · Agent · Terminal · OpenSource · Go
+
+## agent-manager-dev on APIs.io
+
+Everything profiled for agent-manager-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agent-manager-dev/](https://apis.io/providers/agent-manager-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [agent-manager-dev Docs API](https://apis.io/apis/agent-manager-dev/agent-manager-dev-docs-api/) — The documentation, as data and as Markdown.
+- [agent-manager-dev Meta API](https://apis.io/apis/agent-manager-dev/agent-manager-dev-meta-api/) — What this API offers.
+- [agent-manager-dev Product API](https://apis.io/apis/agent-manager-dev/agent-manager-dev-product-api/) — The CLIs agent-manager manages and the tools it exposes.
+- [agent-manager-dev Releases API](https://apis.io/apis/agent-manager-dev/agent-manager-dev-releases-api/) — The current release and how to install it.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agent Manager Dev Agentic Access](https://apis.io/agentic-access/agent-manager-dev/agent-manager-dev-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [Agent](https://apis.io/schemas/agent-manager-dev/agent-manager-dev-agent/)
+- [McpTool](https://apis.io/schemas/agent-manager-dev/agent-manager-dev-mcp-tool/)
+- [PageSummary](https://apis.io/schemas/agent-manager-dev/agent-manager-dev-page-summary/)
+- [SearchResult](https://apis.io/schemas/agent-manager-dev/agent-manager-dev-search-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agent Manager Dev Context](https://apis.io/jsonld/agent-manager-dev/agent-manager-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [agent-manager-dev API Rules](https://apis.io/rules/agent-manager-dev/agent-manager-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agent Manager Dev Authentication](https://apis.io/security/agent-manager-dev/agent-manager-dev-authentication/)
+- [Agent Manager Dev Domain Security](https://apis.io/security/agent-manager-dev/agent-manager-dev-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agent Manager Dev Scopes](https://apis.io/scopes/agent-manager-dev/agent-manager-dev-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agent Manager Dev Plans Pricing](https://apis.io/plans/agent-manager-dev/agent-manager-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agent Manager Dev Rate Limits](https://apis.io/rate-limits/agent-manager-dev/agent-manager-dev-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agent-manager.dev/)
+- [Documentation](https://agent-manager.dev/docs/)
+- [API reference](https://agent-manager.dev/llms.txt)
+- [Changelog](https://github.com/YoanWai/agent-manager/releases)
+- [Privacy policy](https://agent-manager.dev/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 41.8** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 57.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 10.5 |
+
+**Agent readiness 53.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | documented (partial credit) |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agent-manager-dev/](https://apis.io/providers/agent-manager-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for agent-manager-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agent-manager-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
